@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1일차 과제</title>
+  <style>
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+
+    .container{
+      display: flex;
+      flex-direction: column;
+      gap:20px;
+    }
+    table {
+        border-collapse: collapse;
+        border: 1px solid #ddd;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    img {
+      width: 300px;
+
+    }
+    .form-test{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: space-between;
+      gap:10px; 
+    }
+    input {
+      padding: 10px;
+    }
+    .form-test div {
+      display: flex;
+    flex-direction: column;
+    }
+    .form-test button{
+      padding: 10px;
+      width: 100%;
+    }
+</style>
+
+
+</head>
+<body>
+  <section class="container">
+   <!-- 자기소개  (strong태그 사용) -->
+   <section>
+    <h2>자기소개</h2>
+    <strong>안녕하세요! html, css 스터디 3기에 참석하게 된 지영서입니다.</strong>
+     </section>
+   
+   
+     <!-- 좋아하는 음식리스트를 볼 수 있다 (ul태그 필수) -->
+     <section>
+     <h2> 내가 좋아하는 음식 </h2> 
+     <ul>
+   <li> 닭강정 </li>
+   
+   <li> 탕수육 </li>
+   
+   <li>피자 </li>
+   </ul>
+     </section>
+   
+       
+     <!-- 좋아하는 가수의 사진을 볼 수 있다. -->
+     <section>
+      <h2> 내가 좋아하는 가수 </h2>
+      <img src="./public/image/sing.png" alt="강다니엘" ></img>
+     </section>
+   
+       
+     <!-- 좋아하는 가수와 관련된 링크를 볼 수 있다. -->
+     <section>
+       <h3><a href="https://www.youtube.com/watch?v=BHK3gbVkYsM"> 
+         강다니엘 직캠 영상링크입니다.
+       </a></h3>
+     </section>
+   
+       
+   <!-- 좋아하는 노래를 재생할 수 있다. -->
+     <section>
+   
+   <h2>조석의 아로하</h2>
+   <h3>제가 좋아하는 노래를 소개합니다.</h3>
+   <audio src="./public/videos/video1.mp3" controls ></audio>
+     </section>
+   
+     <!-- 인적사항을 테이블 형태로 볼 수 있다. -->
+   <section>
+     <h2> 인적사항 </h2>
+     <table>
+      <thead>
+      <tr>
+        <th>이름</th>
+        <th>나이</th>
+        <th>성별</th>
+        <th>주소</th>
+        <th>연락처</th>
+      </tr>
+      
+     </thead>
+   
+     <tbody>
+      <tr>
+        <td>지영서</td>
+        <td>30대 초반</td>
+        <td>여</td>
+        <td>서울특별시 00구 00로 00</td>
+        <td>010-1111-2234</td>
+      </tr>
+     </tbody>
+    </table>
+   
+   </section>
+   
+   <!-- 연락 문의에 궁금한 사항을 쓸 수 있는 창을 볼 수 있다 (input, button 필수 ) -->
+   <section >
+     
+    <h2>문의 사항을 남겨주세요</h2>
+    <form class="form-test">
+     <div>
+     <label for="name"> 성함 </label>
+     <input type="text" name="name" id="name">
+   </div>
+   <div>
+     <label for="tel"> 회신받을 전화번호 </label>
+     <input type="tel" name="tel" id="tel">
+   </div>
+   <div>
+     <label for="email"> 이메일 </label>
+     <input type="email" name="email" id="email">
+   </div>
+   <div>
+     <label for="password"> 비밀번호  </label>
+     <input type="password" name="password" id="password">
+   </div>
+     <button type="submit"> 문의하기 </button>
+    </form>
+   </section>
+  </section>
+</body>
+</html>
