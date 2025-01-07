@@ -31,6 +31,7 @@ visibility:hidden : 요소가 존재하여 공간을 차지하나 안보이게 �
   align-items: center;
 }
 .box {
+  box-sizing:content-box;
   border: 50px solid red;
   width: 200px;
   padding: 50px;

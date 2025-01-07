@@ -1,0 +1,118 @@
+body{
+  background-color:rgba(162, 155, 254,1.0);
+}
+.container{
+  display: flex;
+  width: 100%;
+  height: 90%;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 20px;
+  overflow-y: auto;
+  
+}
+
+.container h2 {
+  border-bottom: 2px solid rgba(108, 92, 231,1.0);
+}
+
+.section-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  /* align-items: center; */
+  width: 60%;
+ background-color: white;
+ border-radius: 10px;
+ padding: 30px 60px ;
+ text-align: start;
+}
+
+
+.section-container img {
+  border-radius: 5px;
+}
+
+.like-food{
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.like-food li {
+  width: 100%;
+  display: flex;
+  border: 1px solid gray;
+  background-color:rgba(108, 92, 231,1.0);
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 10px;
+  justify-content: center;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+img {
+  width: 250px;
+
+}
+.form-test{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  gap:10px; 
+}
+
+input {
+  padding: 10px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.form-test div {
+  display: flex;
+flex-direction: column;
+}
+.form-test button{
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  background-color:rgba(108, 92, 231,1.0);
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.like-singer{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap:30px;
+}
+
+.like-singer-contacts{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.form-test label{
+  font-weight: 600;
+  
+}

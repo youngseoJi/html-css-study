@@ -3,34 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- 공통 CSS 먼저 로딩 -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/listStyle.css" />
     <title>메인 페이지</title>
-    <style>
-      body{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-      }
-      a { text-decoration: none;  } 
-      .study-list-container{
-        display: flex;
-        width: 50%;
-        flex-direction: column;
-      }
-    </style>
 </head>
-<body>
-    <h1>과제 리스트</h1>
-    <div class="study-list-container">
-    <h2>
-      <ol>
-        <li><a href="./study1.html">첫번째 과제 : html 구조 만들어보기</a>
-        </li>
-        <li><a href="./study2.html">두번쩨 과제 : CSS를 연습하자! </a>
-        </li>
-      </ol>
-      </h2>
+<body class="main-page-container">
+  <section class="main-list-container">
+  
+    <h1>Challenge LIist</h1>
+    
+    <a href="./study1.html" class="chapter-container">
+  <div class="chapter-title-container">
+ <h3> challenge 1 <span> |</span></h1> 
+  <h2>HTML 웹사이트 뼈대 만들기</h2>
+</div>
+  <div class="divider-line"></div>
+</a>
     </div>
+
+<a href="./study2.html" class="chapter-container">
+  <div class="chapter-title-container">
+ <h3 class="chapter-title"> challenge 2 <span> |</span></h1> 
+  <h2>CSS를 연습하자</h2>
+</div>
+  <div class="divider-line"></div>
+</a>
+    </div>
+        
+  </section>
 </body>
 </html>
