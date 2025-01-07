@@ -1,0 +1,100 @@
+
+/* study2 css  */
+.challenge-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 100px;
+}
+
+/* 챌린지 1 */
+/* 
+주어진 HTML을 가지고 위 사진과 같이 만들기
+박스 테두리 그리기 : 두께 50px, 스타일 solid, 색깔 red;
+박스의 넓이 200px로 설정하기
+박스 안에 50px씩 공간주기
+두번째 박스는 초록색으로 세번째 박스는 파란색 바꾸기
+박스들 사이에 공간 20px 만큼 주기
+보너스🚀 박스 색깔 바꿔보기 : https://flatuicolors.com/palette/defo (여기서 색깔 코드 가져오기)
+보너스🚀 두번째 박스를 숨겨보자! display:none과 visibility:hidden의 차이는?
+display:none과 visibility:hidden의 차이는?
+display:none : 아에 요소를 공간도 차지하지않도록 , 사용 안하게 처리  
+visibility:hidden : 요소가 존재하여 공간을 차지하나 안보이게 했을뿐 */
+
+/* 공통 */
+.challenge1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.box {
+  border: 50px solid red;
+  width: 200px;
+  padding: 50px;
+}
+
+/* 공통 끝 */
+
+.green {
+  border-color: #16a085;
+  /* display: none; */ 
+  visibility:hidden;
+}
+
+.blue {
+  border-color: #3498db;
+}
+
+/* 챌린지 2 */
+
+/* 주어진 HTML을 가지고 위 사진과 같이 만들기
+
+모든 <h1> 태그에 글씨색 #9b59b6 주기
+모든 <p> 태그에 글씨크기 16px, 글씨체 Verdana, 글씨 스타일 italic 주기
+sub-header 글씨색 #2980b9 주기
+<p> 태그 첫번째 글씨만 200% 키우고 색깔 #2980b9 주기
+참고 : https://www.w3schools.com/cssref/sel_firstletter.asp
+모든 <h1>태그 전에 Topic: 붙이기
+참고: https://www.w3schools.com/cssref/sel_before.asp
+보너스🚀 노트스타일의 뒷 배경 주기
+참고: http://projects.verou.me/css3patterns/
+전체 내용을 안으로 10% 정도 들여쓰기
+보너스🚀 첫번째 <h1> 태그만 글자 가운데정렬 하기
+참고: https://www.w3schools.com/cssref/sel_firstchild.asp --> */
+
+
+.challenge2{
+  background-color: rgb(255, 255, 255); 
+  background-image: linear-gradient(90deg, transparent 79px, rgb(171, 206, 212) 79px, rgb(171, 206, 212) 81px, transparent 81px), linear-gradient(rgb(238, 238, 238) 0.1em, transparent 0.1em); background-size: 100% 1.2em; --darkreader-inline-bgcolor: #181a1b; --darkreader-inline-bgimage: linear-gradient(90deg, rgba(0, 0, 0, 0) 79px, #2b4e54 79px, #2b4e54 81px, rgba(0, 0, 0, 0) 81px),  linear-gradient(#222426 0.1em, rgba(0, 0, 0, 0) 0.1em);
+  padding-left: 10%;
+}
+
+.challenge2 h1 {
+color: #9b59b6;
+}
+
+h1:first-child {
+  text-align: center;
+}
+
+.challenge2 p {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+.sub-header {
+  color: #2980b9;
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: #2980b9;
+}
+
+h1::before {
+  content: "Topic: ";
+}
