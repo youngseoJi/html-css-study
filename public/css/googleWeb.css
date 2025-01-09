@@ -1,39 +1,36 @@
-
-
-.google-main-container{
+.google-main-container {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 100%;
-  padding: 8px;
+  flex-grow: 1;
 }
 
-.nav{
+.nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 40px;
+  height: 48x;
   padding: 8px;
 }
 
-.nav-items{
+.nav-items {
   display: flex;
   align-items: center;
-  
 }
 .nav-left {
   padding-right: 15px;
 }
 .nav-item {
   padding-left: 15px;
-  cursor: pointer;  
-  font : 13px;
+  cursor: pointer;
+  font: 13px;
 }
 
 .nav-item:hover {
   text-decoration: underline;
 }
-.nav-img{ 
+.nav-img {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,56 +38,56 @@
   width: 40px;
   padding: 2px 4px;
   border-radius: 50px;
-  cursor: pointer; 
- }
+  cursor: pointer;
+}
 
- .nav-img i{
+.nav-img i {
   padding: 8px;
+  cursor: pointer;
+}
 
- }
-
- .user-name{
+.user-name {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-   background-color: blueviolet;
-   border-radius: 50px;
-   padding: 1px;
-   width: 32px;
-   height: 32px;
-   font-size : 13px;
-   color: white;
- }
-
-.nav-img:hover {
-  background-color: #2021241A;
+  background-color: blueviolet;
+  border-radius: 50px;
+  padding: 1px;
+  width: 32px;
+  height: 32px;
+  font-size: 13px;
+  color: white;
 }
 
-.content-main-container{
+.nav-img:hover {
+  background-color: #2021241a;
+}
+
+.content-main-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 100%;
-  gap:20px;
+  flex-grow: 1;
+  gap: 20px;
 }
 
-.content-container{
+.content-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   /* flex-grow: 1; */
-
 }
 
-.google-logo{
+.google-logo {
   width: 272px;
   height: 92px;
   margin-bottom: 38px;
   margin-top: 168px;
 }
-.input-container{
+
+.input-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -100,35 +97,37 @@
   padding: 1px 52px 1px 52px;
   border: 1px solid #dfe1e5;
   border-radius: 50px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-.input-box {
- width: 100%;
- height: 100%;
- border: none; 
- padding:  10px;
- background-color: transparent;
- 
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
-.fa-magnifying-glass{
+.input-container i {
+  cursor: pointer;
+}
+.input-box {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.fa-magnifying-glass {
   position: absolute;
   left: 20px;
   color: #9aa9a6;
 }
-.fa-microphone{
+.fa-microphone {
   position: absolute;
   right: 20px;
   color: #9aa9a6;
 }
 
-
-.plus-btn-container{
+.plus-btn-container {
   display: flex;
   justify-content: center;
 }
 
-.plus-btn{
+.plus-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -139,41 +138,39 @@
   flex-direction: column;
 }
 .plus-btn:hover {
-  background-color: #2021241A;
+  background-color: #2021241a;
 }
 
-.circle{
+.circle {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #c2e7ff;
+  background-color: #d3e3fdff;
   border-radius: 50px;
   width: 48px;
   text-align: center;
   height: 48px;
   margin: 16px 28px 0px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .circle i {
   font-size: 24px;
 }
 
-
 .plus-btn p {
   margin-top: 6px;
   padding: 2px 8px;
 }
 
-
-.set-btn-container{
+.set-btn-container {
   width: 100%;
   display: flex;
   justify-content: flex-end;
   padding: 8px;
 }
 
-.set-btn{
+.set-btn {
   display: flex;
   justify-content: space-between;
   gap: 10px;
@@ -183,5 +180,32 @@
   color: #c2e7ff;
   background-color: #004a77;
   border-radius: 50px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+  background-color: #f2f2f2;
+}
+
+.footer div {
+  padding: 15px 30px;
+}
+
+.first-line {
+  border-bottom: 1px solid #dadce0;
+}
+
+.second-line {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer a {
+  padding: 15px;
 }
