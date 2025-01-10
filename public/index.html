@@ -1,40 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 공통 CSS 먼저 로딩 -->
     <link rel="stylesheet" href="../src/index.css" />
-    <link rel="stylesheet" href="../src/chepter4/flexbox.css" />
-    <link rel="stylesheet" href="./css/spotify.css" />
-    <script
-      src="https://kit.fontawesome.com/56b60620d6.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>flex-box and website</title>
+    <link rel="stylesheet" href="../src/listStyle.css" />
+
+    <title>메인 페이지</title>
   </head>
-  <body>
-    <div class="flexbox-main-container">
-      <div class="tab-container">
-        <button class="tab-btn">
-          <a href="../src/chepter4/web.html" class="tab-view">Spotify 웹사이트 [추가과제]</a>
-        </button>
-        <button class="tab-btn">
-          <a href="../src/chepter4/flexbox1.html" class="tab-view">도전과제 1</a>
-        </button>
-        <button class="tab-btn">
-          <a href="../src/chepter4/flexbox2.html" class="tab-view">도전과제 2</a>
-        </button>
-        <button class="tab-btn">
-          <a href="../src/chepter4/flexbox3.html" class="tab-view">도전과제 3</a>
-        </button>
-        <button class="tab-btn">
-          <a href="../src/chepter4/flexbox4.html" class="tab-view">도전과제 4</a>
-        </button>
-        <button class="tab-btn">
-          <a href="../src/chepter4/flexbox5.html" class="tab-view">도전과제 5</a>
-        </button>
-     
-      </div>
+  <body class="main-page-container">
+    <div class="main-list-background">
+      <section class="main-list-container">
+        <h1>Challenge LIist</h1>
+        <a href="../src/chepter4/flexbox6.html" class="chapter-container">
+          <div class="chapter-title-container">
+            <h4 class="chapter-title">challenge 6</h4>
+            <span>|</span>
+            <span>
+              <h4>flex-box 눈사람 만들기</h4>
+              <h4>position absolute 눈과 입 위치 조정해보기</h4>
+              <h4>
+                position relative 땅 눈사람 뒤로 이동해보기 z-index: 1;
+              </h4></span
+            >
+          </div>
+          <div class="divider-line"></div>
+        </a>
+        <a href="../src/chepter4/flexbox1.html" class="chapter-container">
+          <div class="chapter-title-container">
+            <h4>challenge 1</h4>
+            <span>|</span>
+            <h4>flex-box space-between 좌우정렬</h4>
+          </div>
+          <div class="divider-line"></div>
+        </a>
+
+        <a href="../src/chepter4/flexbox2.html" class="chapter-container">
+          <div class="chapter-title-container">
+            <h4 class="chapter-title">challenge 2</h4>
+            <span>|</span>
+            <span class="challenge-items">
+              <h4>position absolute 부모 box의 top/left 50% 정렬</h4>
+            </span>
+          </div>
+          <div class="divider-line"></div>
+        </a>
+        <a href="../src/chepter4/flexbox3.html" class="chapter-container">
+          <div class="chapter-title-container">
+            <h4 class="chapter-title">challenge 3</h4>
+            <span>|</span>
+            <span>
+              <h4>flex-box 수평/수직 center 정렬</h4>
+              <h4>position relative top에서 20px 아래 정렬</h4>
+              <h4>position absolute center 중간 정렬</h4>
+            </span>
+          </div>
+          <div class="divider-line"></div>
+        </a>
+        <a href="../src/chepter4/flexbox4.html" class="chapter-container">
+          <div class="chapter-title-container">
+            <h4 class="chapter-title">challenge 4</h4>
+            <span>|</span>
+
+            <span>
+              <h4>flex-box 수평/수직 center 정렬</h4>
+              <h4>position relative top에서 20px 아래 정렬</h4>
+              <h4>position absolute center 중간 정렬</h4>
+            </span>
+          </div>
+          <div class="divider-line"></div>
+        </a>
+        <a href="../src/chepter4/flexbox5.html" class="chapter-container">
+          <div class="chapter-title-container">
+            <h4 class="chapter-title">challenge 5</h4>
+            <span>|</span>
+            <span>
+              <h4>flex-box flex-end 수평/수적 맨 왼쪽/아래 배치</h4>
+              <h4>position absolute box2 bottom 0px 아래 정렬</h4>
+              <h4>position absolute box3 right 0px 오른쪽 정렬</h4></span
+            >
+          </div>
+          <div class="divider-line"></div>
+        </a>
+      </section>
     </div>
   </body>
 </html>
