@@ -18,14 +18,7 @@
 [context.flexboxStudy]
   publish = "public/chapter4"
   command = "echo Deploying googleWeb branch..."
-
-
-
-# flexboxStudy 브랜치
-[context.flexboxStudy]
-  publish = "public/chapter4"
-  command = "echo Deploying googleWeb branch..."
-
+  
 #SpotifyWeb
 [context.SpotifyWeb]
   publish = "public/chapter5"
