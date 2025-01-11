@@ -1,5 +1,5 @@
 body {
-  font-family : spotify-circular,  Helvetica, Arial, sans-serif;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
 }
 .spotify-main-container {
   width: 100%;
@@ -17,6 +17,12 @@ nav {
 main {
   height: 968px;
   background-color: rgb(41, 65, 171);
+  background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+  background-size: 175%;
+  background-position: 46% 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 footer {
   height: 530px;
@@ -31,9 +37,57 @@ a {
 }
 
 a:hover {
-  color:#1ed760;
+  color: #1ed760;
 }
 
-.nav-item{
+.nav-item {
   padding: 28px 17px;
+}
+
+
+.content-container{
+  
+}
+
+.headline{
+  font-size: 146px;
+    line-height: 166px;
+    color: #1ed760;
+    position: relative;
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+.headline-first{
+  position: relative;
+  left: -2.5em;
+}
+
+.sub-headline {
+  color: #1ed760;
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+
+.spotify-btn {
+  padding: 14px 32px;
+  background-color: #1ed760;
+  border-radius: 50px;
+  color: #2941ab;
+}
+
+.spotify-btn:hover {
+ transform: scale(1.1);
+
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  width: 1170px;
 }
