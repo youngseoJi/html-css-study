@@ -1,0 +1,38 @@
+# 기본 브랜치 설정 (main 브랜치의 루트 경로)
+[build]
+  publish = "public"
+  command = "echo Deploying main branch..."
+
+
+# study1 브랜치
+[context.study1]
+  publish = "public/chapter1"
+  command = "echo Deploying study2 branch..."
+
+# study2 브랜치
+[context.study2]
+  publish = "public/chapter2"
+  command = "echo Deploying study2 branch..."
+
+# googleWeb 브랜치
+[context.googleWeb]
+  publish = "public/chapter3"
+  command = "echo Deploying googleWeb branch..."
+
+
+# flexboxStudy 브랜치
+[context.flexboxStudy]
+  publish = "public/chapter4"
+  command = "echo Deploying googleWeb branch..."
+
+
+
+# flexboxStudy 브랜치
+[context.flexboxStudy]
+  publish = "public/chapter4"
+  command = "echo Deploying googleWeb branch..."
+
+#SpotifyWeb
+[context.SpotifyWeb]
+  publish = "public/chapter5"Í
+  command = "echo Deploying googleWeb branch..."
