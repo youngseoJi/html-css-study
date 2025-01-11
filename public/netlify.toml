@@ -3,12 +3,6 @@
   publish = "public"
   command = "echo Deploying main branch..."
 
-
-# study1 브랜치
-[context.study1]
-  publish = "public/chapter1"
-  command = "echo Deploying study2 branch..."
-
 # study2 브랜치
 [context.study2]
   publish = "public/chapter2"
