@@ -140,9 +140,18 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 24px;
   color: white;
+  cursor: pointer;
 }
+
+.icon{
+  font-size: 24px;
+}
+
+.icon-circle:hover{
+  color: #1ed760;
+}
+
 
 .second-line {
   display: flex;
