@@ -14,7 +14,6 @@ nav {
   justify-content: space-around;
 }
 
-
 .nav-item {
   padding: 28px 17px;
   font-weight: 700;
@@ -41,7 +40,6 @@ a {
 a:hover {
   color: #1ed760;
 }
-
 
 .headline {
   font-size: 146px;
@@ -77,7 +75,7 @@ a:hover {
 .spotify-btn:hover {
   transform: scale(1.07);
   background-color: #2de26d;
-  transition: transform 0.2s; 
+  transition: transform 0.2s;
 }
 
 .btn-container {
@@ -91,7 +89,6 @@ footer {
   background-color: black;
   display: flex;
   justify-content: center;
-  
 }
 
 .footer-container {
@@ -102,6 +99,7 @@ footer {
   max-width: 1170px;
   padding-top: 80px;
   padding-bottom: 50px;
+  height: 100%;
 }
 
 .first-line {
@@ -115,7 +113,7 @@ footer {
   justify-content: space-between;
 }
 
-.column-menu-box{
+.column-menu-box {
   display: flex;
   flex-direction: column;
   padding: 0 15px;
@@ -150,30 +148,31 @@ footer {
   cursor: pointer;
 }
 
-.icon{
-  font-size: 24px;
+.icon {
+  /* font-size: 24px; */
+  font-size: 2em;
 }
 
-.icon-circle:hover{
+.icon-circle:hover {
   color: #1ed760;
 }
-
 
 .second-line {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   color: #919496;
-  font-size: 12px;
+  /* font-size: 12px;
+   */
+  font-size: 1em;
 }
-
-
 
 .three-line {
   color: #919496;
   display: flex;
   justify-content: space-between;
-  margin-top: 12px;
+  /* margin-top: 12px; */
+  font-size: 1em;
 }
 
 .three-line a {
@@ -181,5 +180,56 @@ footer {
   color: #919496;
 }
 
-.justify-content {
+/* 화면 크기 줄어들 때 - 태블릿 */
+@media (max-width: 768px) {
+ footer{
+  height: auto;
+ }
+  .spotify-logo {
+    width: 100px;
+  }
+
+  .nav-item {
+    font-size: 14px;
+    padding: 14px 17px;
+  }
+
+
+.first-line {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  gap:10px;
+  margin-bottom: 20px;
+
 }
+
+
+.first-line-left {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  padding-bottom: 15px;
+  padding-top: 3px;
+  font-size: 16px;
+}
+
+.footer-first-right {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.second-line{
+justify-content: center;
+margin: 10px 0px;
+}
+
+.three-line{
+flex-direction: column;
+align-items:center;
+gap:10px
+}}
