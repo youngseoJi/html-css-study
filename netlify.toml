@@ -29,3 +29,14 @@
 [context.SpotifyWeb]
   publish = "public/chapter5"
   command = "echo Deploying googleWeb branch..."
+
+#ResponsiveWeb shoppingMall study
+[context.shoppingMallStudy]
+  publish = "public/chapter6"
+  command = "echo Deploying shoppingMallStudy branch..."
+
+#ShoppingMallProject
+
+[context.ShoppingMallProject]
+  publish = "public/ShoppingMallProject"
+  command = "echo Deploying ShoppingMallProject branch..."
