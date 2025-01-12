@@ -39,9 +39,6 @@ a:hover {
   padding: 28px 17px;
 }
 
-.content-container {
-}
-
 .headline {
   font-size: 146px;
   line-height: 166px;
@@ -49,6 +46,8 @@ a:hover {
   position: relative;
   font-weight: 900;
   padding-bottom: 40px;
+  position: relative;
+  left: 225px;
 }
 
 .headline-first {
