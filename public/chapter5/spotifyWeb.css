@@ -67,10 +67,13 @@ a:hover {
   background-color: #1ed760;
   border-radius: 50px;
   color: #2941ab;
+  font-weight: 700;
 }
 
 .spotify-btn:hover {
-  transform: scale(1.1);
+  transform: scale(1.07);
+  background-color: #2de26d;
+  transition: transform 0.2s; 
 }
 
 .btn-container {
